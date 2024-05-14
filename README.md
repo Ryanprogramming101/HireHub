@@ -1,8 +1,7 @@
-# React + Vite
+# HireHub: Your Ultimate Job Posting Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HireHub is a modern job posting web application designed to streamline the job search and recruitment process. Built using cutting-edge technologies such as React, Vite, and Tailwind CSS, HireHub offers a seamless and intuitive user experience for both job seekers and employers.
 
-Currently, two official plugins are available:
+With React, HireHub delivers a dynamic and responsive interface, ensuring fast and smooth interactions. Vite enhances the development experience with its lightning-fast build times and optimized performance. Tailwind CSS brings a sleek and customizable design to the platform, making it visually appealing and easy to navigate.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Whether you're looking to find your dream job or hire top talent, HireHub provides the tools and features you need to connect with the right opportunities and candidates efficiently.
