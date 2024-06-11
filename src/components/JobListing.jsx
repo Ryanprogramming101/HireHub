@@ -8,7 +8,11 @@ const JobListing = ({ job }) => {
 	let description = job.description;
 
 	if (!showFull) {
-		description = description.substring(0, 90) + '...';
+		// description = description.substring(0, 90) + '...';
+		description =
+			description.length < 90
+				? description
+				: description.substring(0, 90) + '...';
 	}
 
 	return (
@@ -21,12 +25,16 @@ const JobListing = ({ job }) => {
 
 				<div className='mb-5'>{description}</div>
 
-				<button
-					onClick={() => setShowFull((prevState) => !prevState)}
-					className='text-indigo-500 mb-5 hover:text-indigo-600'
-				>
-					{showFull ? 'Less' : 'More'}
-				</button>
+				{description.length > 90 ? (
+					<button
+						onClick={() => setShowFull((prevState) => !prevState)}
+						className='text-indigo-500 mb-5 hover:text-indigo-600'
+					>
+						{showFull ? 'Less' : 'More'}
+					</button>
+				) : (
+					''
+				)}
 
 				<h3 className='text-indigo-500 mb-2'>{job.salary} / Year</h3>
 
