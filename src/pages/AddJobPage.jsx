@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
 const AddJobPage = ({ addNewJob }) => {
+	const [id, setId] = useState('');
 	const [type, setType] = useState('Full-Time');
 	const [title, setTitle] = useState('');
 	const [description, setDescription] = useState('');
@@ -13,12 +14,27 @@ const AddJobPage = ({ addNewJob }) => {
 	const [companyEmail, setCompanyEmail] = useState('');
 	const [companyPhone, setCompanyPhone] = useState('');
 
+	useEffect(() => {
+		const fetchJobs = async () => {
+			try {
+				const res = await fetch('/api/jobs');
+				const data = await res.json();
+				let id = parseInt(data[data.length - 1].id) + 1;
+				setId(id.toString());
+			} catch (error) {
+				console.log('Data not fetched', error);
+			}
+		};
+		fetchJobs();
+	}, []);
+
 	const navigate = useNavigate();
 
 	const submitForm = (e) => {
 		e.preventDefault();
 
 		const newJob = {
+			id,
 			type,
 			title,
 			description,
