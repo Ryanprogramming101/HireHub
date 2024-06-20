@@ -5,7 +5,7 @@ HireHub is a modern job posting web application designed to streamline the job s
 Whether you're looking to find your dream job or hire top talent, HireHub provides the tools and features you need to connect with the right opportunities and candidates efficiently.
 
 ## Technologies/Tools Used
-- **Javascript Librar**y: ReactJS
+- **Javascript Library**: ReactJS
 - **CSS Framework**: Tailwind CSS
 - **Icons**: React Icons
 - **Loading Spinners**: React Spinners
