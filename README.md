@@ -28,13 +28,14 @@ Home Page
 
 Jobs Page
 
-![image](https://github.com/Ryanprogramming101/HireHub/assets/81804247/c0638428-b805-47d4-b529-d77de6af6418)
+![image](https://github.com/Ryanprogramming101/HireHub/assets/81804247/5141392b-b7e3-4b20-a9a0-14ba9c76d243)
 
 Add Job Page
 
 ![image](https://github.com/Ryanprogramming101/HireHub/assets/81804247/2f22dc33-b38f-4632-bd57-ad24b646687b)
 
 Job's Page
+
 ![image](https://github.com/Ryanprogramming101/HireHub/assets/81804247/50279e0a-9b47-4f2a-8dbc-cd242fef010a)
 
 
