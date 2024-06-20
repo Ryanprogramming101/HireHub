@@ -38,4 +38,9 @@ Whether you're looking to find your dream job or hire top talent, HireHub provid
 
 ![image](https://github.com/Ryanprogramming101/HireHub/assets/81804247/50279e0a-9b47-4f2a-8dbc-cd242fef010a)
 
+**JSON Server**
+
+![image](https://github.com/Ryanprogramming101/HireHub/assets/81804247/a3e11b37-8577-4092-939f-5b8be6df388a)
+
+
 
